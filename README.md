@@ -5,3 +5,5 @@ work-cli
 yarn install
 node ./bin
 
+# node
+16.14.0
