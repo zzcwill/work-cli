@@ -1,0 +1,34 @@
+{
+  "name": "work-cli",
+  "version": "1.0.0",
+  "description": "cli工具",
+  "main": "lib/index.js",
+  "bin": {
+    "wc": "bin/index.js"
+  },
+  "scripts": {
+    "lint": "eslint lib/**",
+    "build": "yarn lint"
+  },
+  "devDependencies": {
+    "@types/cross-spawn": "^6.0.6",
+    "@types/download": "^8.0.5",
+    "@types/inquirer": "^9.0.7",
+    "@types/shelljs": "^0.8.15"
+  },
+  "dependencies": {
+    "chalk": "^4.1.0",
+    "commander": "^6.2.0",
+    "cross-spawn": "^7.0.3",
+    "download": "^8.0.0",
+    "inquirer": "^7.3.3",
+    "inquirer-autocomplete-prompt": "^1.3.0",
+    "ora": "5",
+    "shelljs": "^0.8.4",
+    "ts-node": "9",
+    "typescript": "^4.4.3"
+  },
+  "engines": {
+    "node": ">=8.6.0"
+  }
+}
