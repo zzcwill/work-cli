@@ -1,7 +1,7 @@
 .git
 node_modules
 .next
-# .vscode
+.vscode
 
 build
 dist

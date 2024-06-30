@@ -14,15 +14,8 @@
     "noImplicitAny": true,
     "declaration": true,
     "baseUrl": ".",
-    "paths": {
-      
-    }
+    "paths": {}
   },
-  "include": [
-    "**/*.ts"
-  ],
-  "exclude": [
-    "node_modules",
-    "dist"
-  ],
+  "include": ["**/*.ts"],
+  "exclude": ["node_modules", "dist"]
 }

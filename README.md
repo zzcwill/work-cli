@@ -1,9 +1,13 @@
 # work-cli
-work-cli
 
-# dev
-yarn install
-node ./bin
+> work-cli
 
 # node
-16.14.0
+
+- node >= 18
+- nvm use 18.20.2
+
+# dev
+
+- pnpm i
+- node dev
