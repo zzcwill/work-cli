@@ -90,13 +90,6 @@ export default class Work {
     await download(downloadProject, dirName, downloadOptions);
     this.loadingStop();
     this.renamePkgNameByDir(targetDir);
-    // return new Promise((resolve) => {
-    //   const ps = spawn('yarn', [], { cwd: targetDir, stdio: 'inherit' });
-
-    //   ps.on('close', (code) => {
-    //     resolve();
-    //   });
-    // });
   }
 
   async start() {

@@ -9,7 +9,7 @@ import { log } from './utils';
 
 inquirer.registerPrompt('autocomplete', require('inquirer-autocomplete-prompt'));
 
-(async () => {
+const initData = async () => {
   log(chalk.cyan('=== work-cli ==='));
 
   cli.version(pkg.version);
@@ -22,4 +22,6 @@ inquirer.registerPrompt('autocomplete', require('inquirer-autocomplete-prompt'))
     });
 
   cli.parse();
-})();
+};
+
+initData();
