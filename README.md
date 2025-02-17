@@ -10,4 +10,4 @@
 # dev
 
 - pnpm i
-- node dev
+- pnpm dev
